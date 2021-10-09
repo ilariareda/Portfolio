@@ -469,17 +469,13 @@ padding-left: 30px;
   }
 
   @media only screen and (min-width: 421px) (max-width: 960) {
-    .photo-grid-item {
-
-      width: 100%;
-
-    }
 
     .page {
    width: 600px;
    margin: 0 auto;
  }
 
+/* MENU */
  .menu-container {
    color: #fff;
    background-color: #fff;  /* Blue */
@@ -498,20 +494,9 @@ padding-left: 30px;
    font-size: 10px
  }
 
- p1 {
-margin-bottom: 10px;
-   font-size: 14px;
-   font-family: 'Lora', serif;
-
-   line-height: 1.4em;
-   padding-left: 30px;
-   padding-right: 100px;
-
- }
 
  .links {
-     /* For debugging */
-   display: flex;
+     display: flex;
    justify-content: flex-end;
 
  }
@@ -538,6 +523,8 @@ margin-bottom: 10px;
    color: #000000
  }
 
+/* TEXT */
+
   body {
     color: #000000
 
@@ -556,18 +543,22 @@ margin-bottom: 10px;
 
  }
 
+  p1 {
+ margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+
+    line-height: 1.4em;
+    padding-left: 30px;
+    padding-right: 100px;
+  }
+
  h2 {
    font-size: 14px;
    font-family: 'Roboto Mono', monospace;
  margin-left: 50px;
 
    font-weight: normal;
- }
-
- .photo-grid-item {
-
-   width: 450px;
-   height: 450px;
  }
 
  .title {
@@ -579,6 +570,14 @@ margin-bottom: 10px;
 
  }
 
+ .titlework {
+   font-size: 25px;
+   font-family: 'Roboto Mono', monospace;
+   margin-top: 50px;
+   margin-bottom: 10px;
+   padding-left: 10px;
+ }
+ 
  p {
    margin-bottom: 100px;
    font-size: 14px;
@@ -602,14 +601,14 @@ margin-bottom: 10px;
 
  }
 
-.title1 {
+ .title1 {
   font-size: 35px;
   font-family: 'Roboto Mono', monospace;
   margin-top: 100px;
   margin-bottom: 10px;
 
 
-}
+ }
  .riga {
      border-top: 3px solid #D6A854;
      padding-top: 100px;
@@ -617,10 +616,25 @@ margin-bottom: 10px;
  }
 
 
+/* foto */
+ .photo-grid-item {
+
+   width: 450px;
+   height: 450px;
+ }
+
+ .photo-grid-item {
+
+   width: 100%;
+
+ }
+
+
+
+
 
  .foto {
-  
-   position: absolute;
+     position: absolute;
 top: 150px;
   right: 600px;
 
@@ -634,8 +648,6 @@ padding-left: 30px;
 
  .ciao-container {
    display: flex;
-
-
    position: relative;
  }
 
@@ -663,13 +675,7 @@ padding-left: 30px;
    align-items: center;
  }
 
- .titlework {
-   font-size: 25px;
-   font-family: 'Roboto Mono', monospace;
-   margin-top: 50px;
-   margin-bottom: 10px;
-   padding-left: 10px;
-  }
+
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
