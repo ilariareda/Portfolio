@@ -80,8 +80,8 @@ img.test {
 }
 
 .page1 {
-  width: 920px;
-  margin: 0 auto;
+  width: 700px;
+
 }
 
 .photo-grid-container {
@@ -168,7 +168,7 @@ a:active {
   margin-top: 100px;
   margin-bottom: 10px;
   padding-left: 0px;
-   padding-left: 55px;
+   padding-left: 155px;
 }
 
 p {
