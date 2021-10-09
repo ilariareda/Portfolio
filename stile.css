@@ -485,7 +485,6 @@ padding-left: 30px;
  }
 
  .menu {
-     /* For debugging */
    width: 600px;
    display: flex;
   justify-content: space-around;
@@ -577,7 +576,7 @@ padding-left: 30px;
    margin-bottom: 10px;
    padding-left: 10px;
  }
- 
+
  p {
    margin-bottom: 100px;
    font-size: 14px;
