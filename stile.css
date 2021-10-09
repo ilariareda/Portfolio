@@ -79,6 +79,11 @@ img.test {
   flex-wrap: wrap;
 }
 
+.page1 {
+  width: 920px;
+  margin: 0 auto;
+}
+
 .photo-grid-container {
   display: flex;
   justify-content: center;
@@ -331,7 +336,7 @@ p {
    font-family: 'Roboto Mono', monospace;
    margin-top: 50px;
    margin-bottom: 10px;
-   
+
     padding-left: 10px;
 
  }
